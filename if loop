@@ -1,27 +1,26 @@
 import java.util.Scanner;
 
-public class GermanNumbers{
+public class StudyEnglish{
 	public static void main(String[] args){
 		Scanner input = new Scanner(System.in);
-		System.out.println("Kiss my Piss");
-		int Num = input.nextlnt();
-		if (Num == 1){
-			System.out.println("Eins");
-		}else if (Num == 2){
-			System.out.println("Zwei");
-		}else if (Num == 3){
-			System.out.println("Drei");
-		}else if (Num == 4){
-			System.out.println("Vier");
-		}else if (Num == 5){
-			System.out.println("Funf");
-		}else if (Num == 6){
-			System.out.println("Sechs");
-		}else if (Num == 7){
-			System.out.println("Sieben");
+		System.out.println("input number of weekday");
+		int day = input.nextInt();
+		if(day==1){
+			System.out.println("monday");
+		}else if(day==2){
+			System.out.println("tuesday");
+		}else if(day==3){
+			System.out.println("wednesday");
+		}else if(day==4){
+			System.out.println("thursday");
+		}else if(day==5){
+			System.out.println("friday");
+		}else if(day==6){
+			System.out.println("saturday");
+		}else if(day==7){
+			System.out.println("sunday");
 		}else{
-			System.out.println("Fuck");
-
-}
-}
+			System.out.println("你丫有病啊 不好好玩");
+		}
+	}
 }
